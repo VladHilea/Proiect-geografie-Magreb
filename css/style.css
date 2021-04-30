@@ -1,0 +1,301 @@
+html, body {height: 100%; font-family: 'Lato', sans-serif;}
+
+.bg-image-1 {
+	background-image: url("../images/colo-logo.png");
+	background-size: cover;
+	max-width: 100%;
+	background-position: fixed;
+	height: auto;
+
+}
+.height-200{
+	height: 200px;
+}
+.bg-colo-1 {
+	background-image: url("../images/colo1.jpg");
+	
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.img-size{
+	max-width: 200%
+	height: auto;
+}
+.bg-white{
+	background-color: white;
+}
+#top{
+	height: 100%;
+	width: 100%;
+	color: #96181B;
+}
+.text-left{
+	text-align: left;
+}
+.pt-25{
+	padding-top: 25px;
+}
+.pb-10{
+	padding-bottom: 20px;
+}
+.bg-black{
+	background-color: black;
+}
+.display-table {
+	display: table;
+}
+.vertical-align{
+	display: table-cell;
+	vertical-align: middle;
+}
+.bg-red{
+	background-color: red;
+}
+.bg-blue{
+	background-color: #007CFB;
+}
+.font-red{
+	color: #A51E1E;
+}
+.bg-yellow-1{
+	background-color: #FCD000;
+}
+.bg-colo-2 {
+	background-image: url("../images/colo7.jpg");
+	
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-white{
+	background-color: white;
+}
+.height-100{
+	height: 100%;
+}
+.opacity-black{
+	background-color: rgba(0,0,0,0.4);
+}
+.opacity-black-2{
+	background-color: rgba(0,0,0,0.5);
+}
+.pt {
+	padding-top: 40px;
+}
+
+.pb {padding-bottom: 40px;
+}
+
+.pt-80 {
+	padding-top: 80px;
+}
+
+p {
+	color: #d3d3d3;
+}
+
+.font-white{
+	color: white;
+}
+.hr { 
+    width: 50px;
+    border-width: 5px;
+	border-color: #FCD000;
+} 
+.button1{
+	background-color: #007CFB;
+	font-color: white;
+}
+.bg-image-2 {
+	background-image: url("../images/bicycle.jpg");
+	background-size: cover;
+}
+.opacity-none{
+	background-color: rgba(0,0,0,0);
+}
+.pb-20{
+	padding-bottom: 20px;
+}
+.pt-20{
+	padding-top: 20px;
+}
+.pb-60{
+	padding-bottom: 60px;
+}
+.padding-left{
+	padding-left: 50px;
+}
+.pr{
+	padding-right: 50px;
+}
+.pl{
+	padding-left: 50px;
+}
+.sass { 
+    background: url(../images/sass-white.png);
+}
+.sass:hover { 
+    background: url(../images/sass.png);
+}
+.envato { 
+    background: url(../images/envato-white.png);
+}
+.envato:hover { 
+    background: url(../images/envato.png);
+}
+.jquery { 
+    background: url(../images/jquery-white.png);
+}
+.jquery:hover { 
+    background: url(../images/jquery.png);
+}
+.qunit { 
+    background: url(../images/qunit-white.png);
+}
+.qunit:hover { 
+    background: url(../images/qunit.png);
+}
+.javascript { 
+    background: url(../images/javascript-white.png);
+}
+.javascript:hover { 
+    background: url(../images/javascript.png);
+}
+.img{
+	filter: none;
+}
+.img:hover{
+	filter: grayscale(1);
+}
+.font-lato{
+	font-family: 'Lato', sans-serif;
+}
+.img-size{
+	max-width: 100%;
+	
+	border-radius: 2px ;
+	vertical-align: middle;
+}
+.bg-yellow{
+	background-color: #FCD000;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-position: center;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+.logo{
+	max-width: 100px;
+	margin-top: -40px;
+}
+
+.navbar-default {
+background-color: transparent;
+border: none;
+border-radius: 0;
+margin-bottom: 0;
+padding: 36px 0;
+z-index: 50; 
+font-family: 'Lato', sans-serif;  
+}
+.opacity-60 {
+    filter: alpha(opacity=60);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    -moz-opacity: 0.60;
+    -khtml-opacity: 0.60;
+    opacity: 0.60;
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+     color: #FCD000;
+     border-top-size:25px;
+     border-top-color: transparent;
+     border-top-style: solid;
+}
+.colo-size-1{
+	max-width: 50%;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #FCD000;
+    background-color: transparent;
+
+}
+
+
+.navbar {
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.nav-collapsed{
+	
+	background-color: #10171c;
+	padding: 10px 0;
+	box-shadow: 0px -1px 10px #000000;
+
+}
+.colo-bg-2{
+	position: relative;
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+.position-arrow{
+	position: fixed;
+	bottom: 60px;
+	right: 60px;
+}
+.bg-red{
+	background-color: red;
+}
+.margin-left{
+	margin-left: -5px;
+}
+.typed-cursor{
+	font-size: 40px;
+}
+.color-blue{
+	color: #10171c;
+}
+@media (max-width: 768px){
+     .bg-image-1{
+     	background-image: url("../images/colo-logo-2.jpg");
+     	background-size: cover;
+     }
+     .bg-colo-1{
+     	background-image: url("../images/colo1-m.jpg");
+     	background-size: cover;
+     }
+     .img-1{
+     	margin-top: -24px;
+     }
+ }
